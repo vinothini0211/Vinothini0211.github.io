@@ -1,0 +1,161 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1ff; /* Soft lavender */
+    color: #3a3a3a;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #7b68ee; /* Medium Slate Blue */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: #ff77a9; /* Soft pink */
+    color: #fff;
+}
+
+/* Sections */
+section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #7b68ee;
+}
+
+/* Profile Image */
+.profile-pic {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 3px solid #7b68ee;
+}
+
+/* Project List */
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    background: #e3dff0; /* Light pastel lavender */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    background: #d4c4fc; /* Slightly deeper lavender */
+}
+
+/* Resume Download */
+#resume p {
+    text-align: center;
+}
+
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #7b68ee;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#resume a:hover {
+    background: #5a4fcc;
+}
+
+/* Contact Section */
+#contact p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#contact a {
+    color: #ff77a9;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#contact a:hover {
+    color: #ff4593;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #7b68ee;
+    margin-top: 50px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+}
